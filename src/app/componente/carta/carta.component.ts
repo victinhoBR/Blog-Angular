@@ -10,6 +10,8 @@ export class CartaComponent implements OnInit {
 foto:string=""
 @Input()
 titulo:string=""
+@Input()
+id:string="1"
   constructor() { }
 
   ngOnInit(): void {

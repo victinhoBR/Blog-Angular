@@ -12,6 +12,8 @@ export class CartaoComponent implements OnInit {
   titulo: string = ""
   @Input()
   descricao: string = ""
+  @Input()
+  id: string = "0"
   constructor() { }
 
   ngOnInit(): void {
