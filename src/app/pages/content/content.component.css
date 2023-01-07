@@ -1,0 +1,47 @@
+.containerContent {
+    border: 1px solid olivedrab;
+    width: 87vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.capa {
+    border: 1px solid olivedrab;
+}
+
+.capa>img {
+    width: 720px;
+    height: 400px;
+    min-width: 720px;
+    border-radius: 10px;
+}
+
+.descricao>p {
+    font-family: 'Chapolin';
+    color: orangered;
+}
+
+.descricao {
+    margin-top: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}   
+.voltar{
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Chapolin';
+    src: url('Chocolate Bar Demo.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}

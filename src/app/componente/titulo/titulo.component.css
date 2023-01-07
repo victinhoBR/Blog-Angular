@@ -1,0 +1,23 @@
+.containerTitle>h1 {
+    color: #800000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 127px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'gangstar';
+}
+.containerTitle>hr {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: solid royalblue 1px;
+}
+    
+@font-face {
+    font-family:'gangstar';
+    src: url('BECKETT_.TTF') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}

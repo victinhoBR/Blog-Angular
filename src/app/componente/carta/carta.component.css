@@ -1,0 +1,23 @@
+.cartaTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.cartaTitulo>a>h1{
+    font-size: 25px;
+}
+.containerCartaContent{
+    display: flex;
+    flex-direction: row;
+}
+.cartaFoto>img{
+    height: 99px;
+    width: 200px;
+    margin-right: 20px;
+} 
+.containerCarta{
+    border: solid royalblue 2px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+}
